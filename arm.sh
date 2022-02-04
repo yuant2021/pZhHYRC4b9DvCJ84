@@ -29,4 +29,4 @@ neko-relay -g init
 
 wget https://github.com/yuant2007/tunnel_config/raw/main/neko_config.yaml -O /etc/neko-relay/config.yaml
 
-neko-relay restart
+neko-relay -g restart
