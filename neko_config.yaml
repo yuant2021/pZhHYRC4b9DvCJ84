@@ -1,0 +1,68 @@
+rules: 
+  hk1:
+    port: "50001"
+    targets:
+    - host: hk01.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk2:
+    port: "50002"
+    targets:
+    - host: hk02.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk4:
+    port: "50004"
+    targets:
+    - host: hk04.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk5:
+    port: "50005"
+    targets:
+    - host: hk05.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk6:
+    port: "50006"
+    targets:
+    - host: hk06.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  jp1:
+    port: "50101"
+    targets:
+    - host: jp01.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  jp2:
+    port: "50102"
+    targets:
+    - host: jp02.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  jp3:
+    port: "50103"
+    targets:
+    - host: jp03.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  sg01:
+    port: "50201"
+    targets:
+    - host: sg01.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  sg03:
+    port: "50203"
+    targets:
+    - host: sg03.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  sg04:
+    port: "50204"
+    targets:
+    - host: sg04.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+cfips: []
