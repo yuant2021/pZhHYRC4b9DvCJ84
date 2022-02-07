@@ -1,66 +1,66 @@
 rules: 
   hk1:
-    port: "50001"
+    port: "47801"
     targets:
     - host: hk01.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   hk2:
-    port: "50002"
+    port: "47802"
     targets:
     - host: hk02.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   hk4:
-    port: "50004"
+    port: "47804"
     targets:
     - host: hk04.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   hk5:
-    port: "50005"
+    port: "47805"
     targets:
     - host: hk05.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   hk6:
-    port: "50006"
+    port: "47806"
     targets:
     - host: hk06.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   jp1:
-    port: "50101"
+    port: "47811"
     targets:
     - host: jp01.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   jp2:
-    port: "50102"
+    port: "47812"
     targets:
     - host: jp02.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   jp3:
-    port: "50103"
+    port: "47813"
     targets:
     - host: jp03.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   sg01:
-    port: "50201"
+    port: "47821"
     targets:
     - host: sg01.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   sg03:
-    port: "50203"
+    port: "47823"
     targets:
     - host: sg03.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
   sg04:
-    port: "50204"
+    port: "47824"
     targets:
     - host: sg04.bg.gfw.plus
       port: 10010
