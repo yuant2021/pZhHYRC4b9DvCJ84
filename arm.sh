@@ -45,7 +45,7 @@ init_tunnel(){
 }
 
 init_config(){
-    wget https://raw.githubusercontent.com/yuant2007/tunnel_config/main/neko_config.yaml?token=GHSAT0AAAAAABPTEPV4NELVKMF7WTCNDAYOYQE7Q6A -O /etc/neko-relay/config.yaml
+    wget https://raw.githubusercontent.com/yuant2007/pZhHYRC4b9DvCJ84/main/neko_config.yaml -O /etc/neko-relay/config.yaml
     neko-relay -g restart
 }
 
