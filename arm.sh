@@ -66,6 +66,8 @@ ddns(){
         curl -L https://raw.githubusercontent.com/naiba/nezha/master/script/install.sh -o nezha.sh && chmod +x nezha.sh && ./nezha.sh install_agent tzconn.gfw.plus 443 5a0e58b8552cf34bd8 --tls
         curl -X POST https://dnsapi.cn/Record.Ddns -d 'login_token=290979,f2d230d801cbdd22fb409053a0b6252c&format=json&domain_id=90286247&record_id=1049484405&record_line=默认&sub_domain=awssg01'
     fi
+    apt update
+    apt install nginx
 }
 
 
