@@ -29,6 +29,36 @@ rules:
     - host: hk06.bg.gfw.plus
       port: 10010
     type: mix_tunnel_server_tcp+udp
+  hk1a:
+    port: "30111"
+    targets:
+    - host: hk01.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk2a:
+    port: "30112"
+    targets:
+    - host: hk02.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk4a:
+    port: "30114"
+    targets:
+    - host: hk04.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
+  hk5a:
+    port: "30115"
+    targets:
+    - host: hk05.bg.gfw.plus
+      port: 30116
+    type: mix_tunnel_server_tcp+udp
+  hk6a:
+    port: "47806"
+    targets:
+    - host: hk06.bg.gfw.plus
+      port: 10010
+    type: mix_tunnel_server_tcp+udp
   jp1:
     port: "47811"
     targets:
