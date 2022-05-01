@@ -1,7 +1,7 @@
 #!/bin/bash
 
 xrayr_install(){
-    bash <(curl -Ls https://raw.githubusercontent.com/XrayR-project/XrayR-release/master/install.sh)
+    wget -N https://raw.githubusercontents.com/Misaka-blog/XrayR-script/master/install.sh && bash install.sh
 }
 
 xrayr_config(){
